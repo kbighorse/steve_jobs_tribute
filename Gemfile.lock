@@ -42,6 +42,7 @@ GEM
     mime-types (1.16)
     mocha (0.9.12)
     nifty-generators (0.4.6)
+    pg (0.11.0)
     polyglot (0.3.2)
     rack (1.2.4)
     rack-mount (0.6.14)
@@ -82,6 +83,7 @@ PLATFORMS
 DEPENDENCIES
   mocha
   nifty-generators
+  pg
   rails (= 3.0.10)
   sqlite3
   unicorn
