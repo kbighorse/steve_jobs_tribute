@@ -10,7 +10,7 @@ class TributesController < ApplicationController
   def create
     @tribute = Tribute.new(params[:tribute])
     if @tribute.save
-      redirect_to tributes_url, :notice => "Successfully created tribute."
+      redirect_to root_url, :notice => "Successfully created tribute."
     else
       render :action => 'new'
     end
