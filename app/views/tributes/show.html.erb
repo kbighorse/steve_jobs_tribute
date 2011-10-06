@@ -1,0 +1,16 @@
+<% title "Tribute" %>
+
+<p>
+  <strong>Name:</strong>
+  <%= @tribute.name %>
+</p>
+<p>
+  <strong>Body:</strong>
+  <%= @tribute.body %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_tribute_path(@tribute) %> |
+  <%= link_to "Destroy", @tribute, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", tributes_path %>
+</p>

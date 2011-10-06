@@ -1,0 +1,7 @@
+<% title "Steve Jobs Tributes" %>
+
+<% @tributes.each do |tribute| %>
+<h3><%= tribute.body %></h3></br>--<%= tribute.name %>
+<% end %>
+
+<p><%= link_to "New Tribute", new_tribute_path %></p>

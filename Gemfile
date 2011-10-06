@@ -5,10 +5,12 @@ gem 'rails', '3.0.10'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+gem 'sqlite3'
 
 # Use unicorn as the web server
 gem 'unicorn'
+
+gem "nifty-generators", :group => :development
 
 # Deploy with Capistrano
 # gem 'capistrano'
@@ -29,3 +31,4 @@ gem 'unicorn'
 # group :development, :test do
 #   gem 'webrat'
 # end
+gem "mocha", :group => :test
